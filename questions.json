@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Algorithms",
+    "question": "Binary search complexity?",
+    "answer": "O(log n)",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Data Structures",
+    "question": "FIFO data structure?",
+    "answer": "queue",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Behavioral",
+    "question": "Name one thing you do to debug tricky issues fast.",
+    "answer": null,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Algorithms",
+    "question": "Which sorting algorithm is stable: quicksort or mergesort?",
+    "answer": "mergesort",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which structure uses LIFO?",
+    "answer": "stack",
+    "difficulty": "easy"
+  }
+]
