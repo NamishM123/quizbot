@@ -1,16 +1,25 @@
-# Quizbot
-CLI + Flask web quiz with JSON questions, categories, difficulty, scoring, and saved results.
+# 🧠 Quizbot
 
-## Run locally
+A tiny quiz app you can run in the terminal **and** as a Flask web app.  
+Questions live in JSON, you can filter by category and difficulty, and auto-graded answers ignore case/spacing/punctuation. Results are saved locally.
+
+---
+
+## ✨ Features
+- CLI and Flask web UI
+- JSON-driven questions
+- Category & difficulty filters
+- Input normalization (fair matching)
+- Open-ended questions supported
+- Saves results to `scores.jsonl`
+
+---
+
+## ▶️ Run locally
+
+**Requirements:** Python 3.10+
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python web_app.py
-# open http://127.0.0.1:5057/
-
-## Data format
-questions.json: [{"category":"Algorithms","question":"...","answer":"O(log n)","difficulty":"medium"}]
-
-## Deploy
-- Build: pip install -r requirements.txt
-- Start: gunicorn web_app:app
